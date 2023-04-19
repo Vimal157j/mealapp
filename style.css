@@ -1,0 +1,235 @@
+
+
+
+/* body properties.. */
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(133, 71, 225)!important;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body::-wibkit-scrollbar{
+    display: none;
+}
+
+
+
+/* heading of our food store.... */
+h1{
+    margin: 20px;
+}
+
+
+/* foregroung-plate properties.. */
+#foreground-plate{
+    width: 90%;
+    height: 95vh;
+    margin-left: 5%;
+    background-color:rgb(133, 71, 225)!important;
+}
+
+
+
+/*  Assigning properties to Search Box */
+#searchBox{
+    width: 40%;
+    margin-left: 30%;
+    height:7%;
+    display:flex;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+
+/* Assigning input tag Properties.... */
+#input1{
+    width:80%;
+    border: none;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    padding-left: 3%;
+    font-size:large;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+
+/* Assigning Properties to submit button ,,,,,,,,,, */
+#btn1{
+    width: 20%;
+    height:100%;
+    border: none;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    font-size:inherit;
+    cursor: pointer;
+}
+
+
+/* favourite meal properties... */
+#favourite{
+    position:absolute;
+    right:10%;
+    top: 11%;
+    font-size:large;
+    background-color:rgba(4, 7, 53, 0.452);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+
+/*  Favourite link tag Properties... */
+#ancr{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*  Meal Item catogories ..*/
+#moreMeals{
+    width: 100%;
+    margin-top: 5%;
+    background-color:rgba(27, 12, 103, 0.452);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+
+/*  massage container ....properties... */
+#msg{
+    position: absolute;
+    width: 36%;
+    margin-left: 27%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+    overflow:scroll;
+}
+
+
+/*  hidding scroll bar.. */
+#msg::-webkit-scrollbar{
+    display: none;
+}
+
+
+#itemName{
+    background-color:whitesmoke;
+    color:black;
+    width: 100%;
+    width: inherit;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+#mealsItem{
+    text-decoration: none;
+}
+
+
+/* common property of all Meal Item showing container box... */
+/*  this properties are common in home and favourite page.. */
+
+/* Item card properties........background-plate.. */
+.card{
+    background-color: white;
+    border: 2px solid rgb(19, 194, 19);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+/*  Item card properties of Favourite meals... */
+.card1{
+    background-color:inherit;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+/* Item image properties.. */
+.card-img-top{
+    width:12rem;
+    height: 12rem;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*  Item Name properties.. */
+.card-title{
+    font-size:medium;
+    margin: 10px;
+    display: inline;
+}
+
+.card:hover{
+    background-color:rgba(27, 12, 103, 0.452);
+    color: white;
+    border: none;
+}
+/***********************************************
+
+/*  CSS STYLE PROPERTIES OF MEAL DETAIL PAGE............ */
+  
+/*  Meal details card background-plate properties.. */
+#meal-deatails-plate{
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgba(169, 170, 186, 0.452);
+    border-radius: 10px;
+}
+/*  image container properties in mealdetails... */
+#img-container{
+    width: 30%;
+    border-radius: 10px;
+}
+ /*  details container part properties....... */
+#detail-container{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    display: block;
+    text-align: left;
+}
+/* assigning image properties....... */
+#detail-img{
+    width:100%;
+    height: inherit;
+    border-radius: 10px;
+}
+/* check box properties.......... */
+
+.box{
+    width: 15px;
+    height: 18px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.country-card{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+.card-title{
+    color: black;
+}
+
